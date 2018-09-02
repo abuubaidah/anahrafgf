@@ -1,0 +1,71 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	.banner .banner-content .text-body h1 {
+		font-size: 32px;
+	}
+	.banner .banner-content .text-body h1 span {
+	    font-size: 40px;
+	}
+	.banner .banner-content .text-body p {
+		font-size: 16px;
+	}
+	.banner .banner-content .text-body a {
+		width: 200px;
+	}
+	.title h2 {
+		font-size: 28px;
+	}
+	.demo .col-lg-4:last-child .demo-single {
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+	.banner .banner-content .text-body h1 {
+		font-size: 32px;
+	}
+	.banner .banner-content .text-body h1 span {
+		font-size: 32px;
+	}
+	.banner .banner-content .text-body p {
+		font-size: 16px;
+	}
+	.banner .banner-content .text-body a {
+		width: 200px;
+	}
+	.title h2 {
+		font-size: 28px;
+	}
+	.demo .col-lg-4:last-child .demo-single {
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	.banner .banner-content .text-body h1 {
+		font-size: 32px;
+	}
+	.banner .banner-content .text-body h1 span {
+		font-size: 32px;
+	}
+	.banner .banner-content .text-body p {
+		font-size: 16px;
+	}
+	.banner .banner-content .text-body a {
+		display: block;
+		margin-right: 0;
+	}
+	.title h2 {
+		font-size: 28px;
+	}
+	.demo .col-lg-4:last-child .demo-single {
+		margin-top: 30px;
+	}
+}
