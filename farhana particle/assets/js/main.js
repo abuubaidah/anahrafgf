@@ -18,7 +18,7 @@
          if($filterizr.length) {
           var $filterizrControls = $('.filterizr__controls');
           $filterizr.filterizr();
-          $filterizrControls.children('li').click(function() {
+          $filterizrControls.children('li').on('click', function() {
             $filterizrControls.find('li.active').removeClass('active');
             $(this).addClass('active');
           });
