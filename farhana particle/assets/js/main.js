@@ -12,7 +12,7 @@
     //======================================
     //======== Enable filterizr ============
     //====================================== 
-    jQuery(window).load(function() {
+    jQuery(window).on('load', function() {
 
          var $filterizr = $('.filterizr__elements');
          if($filterizr.length) {
